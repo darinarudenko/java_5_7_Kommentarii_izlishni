@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         int x = 2;
-        int y = 12;
+        int y = 14;
 
         // y = x * y;
         // y = x + y;
@@ -12,7 +12,7 @@ public class Main {
         x = y - x;
         y = y - x;
 
-        System.out.println(x);
         System.out.println(y);
+        System.out.println(x);
     }
 }
